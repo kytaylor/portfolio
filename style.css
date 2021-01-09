@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #222;
+}
+
+header {
+    background-color: rgba(131,58,180,1);
+    color: white;
+    letter-spacing: 1px;
+    list-style: none;
+    text-align: center;
+}
+
+.link-button {
+    border-bottom: 5px solid rgba(131,58,180,1);
+    color: white;
+    padding: 15px 27px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.link-button:hover {
+    border-bottom: 5px solid #00B285;
+    color: #00B285;
+    background-color: rgba(131,58,180,1);
+}
