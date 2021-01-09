@@ -93,3 +93,28 @@ section {
     margin-left: 200px;
     margin-right: 200px;
 }
+
+.external-button {
+    border-bottom: 5px solid rgba(131,58,180,1);
+    padding: 15px 27px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.external-button:hover {
+    /* border-bottom: 30px solid rgba(131,58,180,1); */
+    /* color: #00B285; */
+    background-color: rgba(131,58,180,1);
+}
+
+article {
+    background-color: rgb(58, 58, 58);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
