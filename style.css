@@ -7,7 +7,9 @@ body {
     background-color: #222;
 }
 
-header {
+/* Navbar CSS */
+/* -------------------------------------- */
+nav {
     background-color: rgba(131,58,180,1);
     color: white;
     letter-spacing: 1px;
@@ -32,4 +34,35 @@ header {
     border-bottom: 5px solid #00B285;
     color: #00B285;
     background-color: rgba(131,58,180,1);
+}
+/* -------------------------------------- */
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    letter-spacing: 20px;
+    font-weight: 300;
+    position: relative;
+    z-index: 3;
+}
+
+.square-purple {
+    background-color: rgba(131,58,180,1);
+    height: 150px;
+    width: 510px;
+    position: relative;
+    left: 30px;
+    bottom: 100px;
+    z-index: 2;
+}
+
+.square-green {
+    background-color: #00B285;
+    height: 150px;
+    width: 510px;
+    position: relative;
+    left: 240px;
+    bottom: 310px;
+    z-index: 1;
 }
