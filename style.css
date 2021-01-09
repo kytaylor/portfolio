@@ -41,8 +41,8 @@ h1 {
     color: white;
     text-align: center;
     font-size: 150px;
-    letter-spacing: 20px;
-    font-weight: 300;
+    letter-spacing: 55px;
+    font-weight: 200;
     position: relative;
     z-index: 3;
 }
@@ -52,7 +52,7 @@ h1 {
     height: 150px;
     width: 510px;
     position: relative;
-    left: 30px;
+    left: 130px;
     bottom: 100px;
     z-index: 2;
 }
@@ -62,7 +62,7 @@ h1 {
     height: 150px;
     width: 510px;
     position: relative;
-    left: 240px;
+    left: 340px;
     bottom: 310px;
     z-index: 1;
 }
