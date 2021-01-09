@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: Montserrat;
+    color: white;
 }
 
 body {
@@ -11,7 +12,6 @@ body {
 /* -------------------------------------- */
 nav {
     background-color: rgba(131,58,180,1);
-    color: white;
     letter-spacing: 1px;
     list-style: none;
     text-align: center;
@@ -19,7 +19,6 @@ nav {
 
 .link-button {
     border-bottom: 5px solid rgba(131,58,180,1);
-    color: white;
     padding: 15px 27px 10px;
     text-align: center;
     text-decoration: none;
@@ -38,11 +37,10 @@ nav {
 /* -------------------------------------- */
 
 h1 {
-    color: white;
     text-align: center;
     font-size: 150px;
     letter-spacing: 55px;
-    font-weight: 200;
+    font-weight: 500;
     position: relative;
     z-index: 3;
 }
@@ -53,7 +51,7 @@ h1 {
     width: 510px;
     position: relative;
     left: 130px;
-    bottom: 100px;
+    bottom: 120px;
     z-index: 2;
 }
 
@@ -65,4 +63,26 @@ h1 {
     left: 340px;
     bottom: 310px;
     z-index: 1;
+}
+
+.text {
+    position: relative;
+    bottom: 210px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bold {
+    font-weight: bold;
+    color: #00B285;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #00B285;
+}
+
+p {
+    font-size: 25px;
 }
