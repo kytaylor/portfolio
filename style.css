@@ -8,6 +8,11 @@ body {
     background-color: #222;
 }
 
+/* Code for making sure no content gets covered due to the sticky header when jumping to another part of the page */
+html {
+    scroll-padding-top: 49px;
+}
+
 /* Navbar CSS */
 /* -------------------------------------- */
 header {
@@ -74,6 +79,17 @@ h1 {
     margin-right: 200px;
 }
 
+.margin {
+    position: relative;
+    bottom: 90px;
+    margin-left: 200px;
+}
+
+.button {
+    position: relative;
+    bottom: 90px;
+}
+
 .bold {
     font-weight: bold;
     color: #00B285;
@@ -119,4 +135,10 @@ article {
 
 img {
     max-width: 700px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #00B285;
 }
