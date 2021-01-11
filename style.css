@@ -31,7 +31,8 @@ nav {
 
 .link-button {
     border-bottom: 5px solid rgba(131,58,180,1);
-    padding: 15px 27px 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -39,6 +40,7 @@ nav {
     cursor: pointer;
     transition: all 0.3s ease;
     display: inline-block;
+    width: 22%;
 }
 
 .link-button:hover {
@@ -49,45 +51,44 @@ nav {
 /* -------------------------------------- */
 
 main {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 h1 {
     text-align: center;
-    font-size: 150px;
-    letter-spacing: 55px;
-    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 20px;
     position: relative;
     z-index: 3;
 }
 
 .square {
     background-color: rgba(131,58,180,1);
-    height: 150px;
-    width: 510px;
+    height: 90px;
+    width: 170px;
     position: relative;
-    left: 130px;
-    bottom: 110px;
     z-index: 2;
-    box-shadow: 200px -50px #00B285;
+    bottom: 80px;
+    left: 40px;
+    box-shadow: 30px -40px #00B285;
 }
 
 .text {
     position: relative;
-    bottom: 90px;
-    margin-left: 200px;
-    margin-right: 200px;
+    bottom: 70px;
+    margin-left: 5%;
 }
 
 .margin {
     position: relative;
-    bottom: 90px;
-    margin-left: 200px;
+    bottom: 70px;
+    margin-left: 5%;
 }
 
 .button {
     position: relative;
-    bottom: 90px;
+    bottom: 70px;
+    margin-left: 5%;
 }
 
 .bold {
@@ -97,17 +98,12 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 50px;
     color: #00B285;
 }
 
-p {
-    font-size: 25px;
-}
-
 section {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .external-button {
@@ -128,17 +124,86 @@ section {
 
 article {
     background-color: rgb(58, 58, 58);
-    padding: 10px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 img {
-    max-width: 700px;
+    max-width: 95%;
 }
 
 h3 {
     font-weight: bold;
-    font-size: 35px;
     color: #00B285;
+}
+/* -------------------------------------- */
+
+@media (min-width: 576px) {
+    .link-button {
+        padding: 15px 27px 10px;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 150px;
+        letter-spacing: 55px;
+        font-weight: 500;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .square {
+        height: 150px;
+        width: 510px;
+        position: relative;
+        left: 130px;
+        bottom: 110px;
+        z-index: 2;
+        box-shadow: 200px -50px #00B285;
+    }
+    
+    .text {
+        position: relative;
+        bottom: 90px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    .margin {
+        position: relative;
+        bottom: 90px;
+        margin-left: 200px;
+    }
+    
+    .button {
+        position: relative;
+        bottom: 90px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+    
+    section {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    article {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 398px) {
+    html {
+        scroll-padding-top: 100px;
+    }
 }
