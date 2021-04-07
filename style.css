@@ -6,6 +6,7 @@
 
 body {
     background-color: #222;
+    margin-bottom: 10px;
 }
 
 /* Code for making sure no content gets covered due to the sticky header when jumping to another part of the page */
